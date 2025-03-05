@@ -1,0 +1,108 @@
+/* General Page Styling */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc;
+}
+
+/* Header Styling */
+header {
+    background-color: #0b5e61;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main Content Container */
+.container {
+    width: 80%;
+    background: white;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgb(155, 231, 231);
+}
+
+/* Button Styling */
+.back {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.back:hover {
+    background: #cc5500;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #0a5e61;
+    color: white;
+    margin-top: 20px;
+}
+/* Comment Section Styling */
+h3 {
+    color: #0b5e61;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc5500;
+}
+
+#commentSection {
+    margin-top: 20px;
+}
+
+#commentList {
+    list-style: none;
+    padding: 0;
+}
+
+#commentList li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #0b5e61;
+    border-radius: 5px;
+}
+/* Styling for Delete Button */
+.delete-btn {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
